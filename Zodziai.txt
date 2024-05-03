@@ -1,0 +1,8 @@
+1) Unique ir constraint:
+alter table studentas
+add constraint sveiki unique(vardas, pavarde) 
+--unique, kad nebutu tokio pacio vardo su pavarde, o constraints tam, kad galetum prideti unique ir kitokius dalykus
+
+2) concat sudeda dalykus
+
+3) select STRING_AGG(vardas, ', ') from asmuo --pateikia visus vardus vienoje eiluteje
